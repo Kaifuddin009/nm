@@ -12,5 +12,6 @@ This is a responsive web built using modern web technologies. It includes:
 Clone the repository:
 
 ```bash
-git gh repo clone Kaifuddin009/k-nm
-cd portfolio
+git clone https://github.com/Kaifuddin009/nm.git
+cd nm
+
