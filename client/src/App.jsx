@@ -13,15 +13,12 @@ const App = () => {
     <div className='w-full min-w-full max-w-full overflow-x-hidden'>
       <Navbar/>
 <Routes>
-  <Route path='/' element={
-    <>
-         <Home/>
-        <Service/>
-        <AboutUs/>
-        <ContactSection/>
+  <Route path='/' element={<Home/>}/>
+  <Route path='/services' element={<Service/>}/>
+  <Route path='/about' element={<AboutUs/>}/>
+  <Route path='/contact' element={<ContactSection/>}/>
         
-    </>
-  }/>
+    
   <Route path="/service/:type" element={<MehendiDetail />} />
   <Route path="/booking" element={<BookingPage />}>
       <Route path="details" element={<BookingStep2 />} />
