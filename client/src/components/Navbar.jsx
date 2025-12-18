@@ -50,7 +50,7 @@ const handledev =(hash) =>{
             </button>
           ))}
           <button
-            onClick={()=>navigate('/booking')}
+            onClick={()=>navigate('/custom-booking')}
             className="px-4 py-2 bg-white hover:bg-[#08744a] 
                        text-black font-semibold rounded-md"
           >
